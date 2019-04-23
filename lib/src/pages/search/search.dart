@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:unsplash/src/pages/home/widgets/day_view.dart';
-import 'package:unsplash/src/pages/home/widgets/follow_view.dart';
 import 'package:unsplash/src/pages/home/widgets/search_input.dart';
 import 'package:unsplash/src/pages/search/widgets/button_row.dart';
 import 'package:unsplash/src/pages/search/widgets/grid_tiles.dart';
@@ -56,6 +54,7 @@ class _SearchState extends State<Search> {
                     fontSize: 18,
                   ),
                 ),
+                VGap(),
                 GridTiles(),
               ],
             ),

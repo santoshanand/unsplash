@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:unsplash/src/pages/search/search.dart';
 
 class FollowView extends StatelessWidget {
   const FollowView({
@@ -22,7 +23,12 @@ class FollowView extends StatelessWidget {
         Spacer(),
         FlatButton(
           child: Text('Follow'),
-          onPressed: () {},
+          onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => Search()),
+            );
+          },
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(20),
           ),

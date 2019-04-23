@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:unsplash/src/pages/home/home.dart';
 
 class Button extends StatelessWidget {
   final String label;
@@ -28,7 +29,12 @@ class Button extends StatelessWidget {
           style: TextStyle(
               color: this.color == null ? Colors.black : Colors.white),
         ),
-        onPressed: () {},
+        onPressed: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => Home()),
+          );
+        },
       ),
     );
   }

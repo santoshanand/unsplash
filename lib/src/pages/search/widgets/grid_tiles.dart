@@ -7,21 +7,27 @@ class GridTiles extends StatefulWidget {
 }
 
 class _GridTilesState extends State<GridTiles> {
+  var images = [
+    'assets/images/png/11.png',
+    'assets/images/png/22.png',
+    'assets/images/png/3.png',
+    'assets/images/png/4.png',
+    'assets/images/png/5.png',
+    'assets/images/png/6.png',
+  ];
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: MediaQuery.of(context).size.height,
-      color: Colors.red,
+      height: 400,
       child: GridView.count(
         crossAxisCount: 2,
-        children: List<Widget>.generate(16, (index) {
-          print('Herer' + index.toString());
+        crossAxisSpacing: 10,
+        mainAxisSpacing: 10,
+        children: List<Widget>.generate(6, (index) {
           return GridTile(
-            child: Card(
-              color: Colors.blue.shade200,
-              child: Center(
-                child: Text('tile $index'),
-              ),
+            child: Image.asset(
+              images[index],
+              fit: BoxFit.fill,
             ),
           );
         }),

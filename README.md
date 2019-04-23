@@ -1,16 +1,11 @@
-# unsplash
-
-A new Flutter project.
+# UNSPLASH APP
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+For help getting started with Flutter, view our online
+[Flutter Documentation](https://flutter.io/).
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
+<img src="assets/screenshots/1.png" height="302em"/> <img src="assets/screenshots/2.png" height="302em"/><img src="assets/screenshots/3.png" height="302em"/>
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+Inspired from [uplabs.com](https://www.uplabs.com/posts/unsplash-app-concept-9544f2ac-2ef9-4a10-8c46-d2958781b5e9)
